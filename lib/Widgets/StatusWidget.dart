@@ -100,7 +100,7 @@ class StatusWidget extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
+                Padding(
                     padding:EdgeInsets.only(left: 20),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -128,7 +128,7 @@ class StatusWidget extends StatelessWidget {
                 ],
               ),
             ),
-//----------------------------------------------------------
+            
             SizedBox(height: 20,),
             Container(
               alignment: Alignment.centerLeft,

@@ -36,7 +36,6 @@ class HomePage extends StatelessWidget {
                   ),
                   ),
                   PopupMenuButton(
-
                     onSelected: (selected){
                       if(selected==5){
                         Navigator.pushNamed(context, "settingsPage");
@@ -189,16 +188,13 @@ class HomePage extends StatelessWidget {
           ),
 
       floatingActionButton: FloatingActionButton(
-        onPressed:() {
-          
-        },
+        onPressed:() { },
         backgroundColor: Color(0xFF075E55),
         child: Icon(
           Icons.message,
         ), 
         ),
-
-      )
+        )
       ) ;
   }
 }

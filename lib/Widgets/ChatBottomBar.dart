@@ -43,8 +43,8 @@ class ChatBottomBar extends StatelessWidget {
                     color: Colors.black38,
                     size: 30,
                   ),
-
-            ],),
+                  ],
+                  ),
           ),
           Container(
             padding: EdgeInsets.all(10),
@@ -57,8 +57,7 @@ class ChatBottomBar extends StatelessWidget {
             size: 30,
             color: Colors.white,
             ),
-            
-          ),
+            ),
         ],
       ),
     );

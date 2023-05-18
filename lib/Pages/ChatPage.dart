@@ -23,7 +23,6 @@ class ChatPage extends StatelessWidget {
                 Icons.arrow_back,
                 size: 25,
               ),
-
             ),
             ),
             leadingWidth: 20,
@@ -56,34 +55,29 @@ class ChatPage extends StatelessWidget {
                 ],
               ),
                ),
-
         actions: [
           Padding(
             padding: EdgeInsets.only(top: 10,right: 25),
             child: Icon(
               CupertinoIcons.video_camera_solid,
               size: 35,
-
-            ),
+              ),
             ),
             Padding(
             padding: EdgeInsets.only(top: 10,right: 20),
             child: Icon(
               Icons.call,
               size: 25,
-              
-            ),
+              ),
             ),
             Padding(
             padding: EdgeInsets.only(top: 10,right: 10),
             child: Icon(
               Icons.more_vert,
               size: 28,
-              
-            ),
+              ),
             ),
         ],
-
         ),
          ),
          body: Container(
@@ -91,9 +85,7 @@ class ChatPage extends StatelessWidget {
           width: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(
-                "images/bckgrnd.jpg"
-                ),
+              image: AssetImage("images/bckgrnd.jpg"),
                 fit: BoxFit.cover,
               ),
           ),
@@ -119,13 +111,11 @@ class ChatPage extends StatelessWidget {
                       "Messages and calls are end-to-end encrypted, No one outside of this can read or listen. Tap to learn more",
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 15),),
-                    
-                  ),
+                    ),
                   ChatSample(),
                 ],
               ), 
               ),
-               
           ),
          ),
          bottomSheet: ChatBottomBar(),

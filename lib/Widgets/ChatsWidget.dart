@@ -9,7 +9,7 @@ class ChatsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
       List<String>  names=["Yunus","Apoğ","Raghad","Selçuk","Olcay","Ofli","Jaime","Nami"];
-      List <String> messages=["Hi dude, How are you?","whassup budy?","Yunus,I don't love you :(","Come here ,quickly!","Let's play CS:GO","What did you do?","Hola mi amigo","Heyyyyyy!"];
+      List <String> messages=["Hi dude, How are you?","whassup budy?","Yunus,Ilove you :(","Come here ,quickly!","Let's play CS:GO","What did you do?","Hola mi amigo","Heyyyyyy!"];
      
     return SingleChildScrollView(
       child: Padding(
@@ -95,8 +95,7 @@ class ChatsWidget extends StatelessWidget {
                               ),
                               ),
                           ),
-                        
-                      ],
+                          ],
                     )
                 ],
               ),

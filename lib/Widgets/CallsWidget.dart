@@ -30,6 +30,7 @@ class CallsWidget extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
+        
         Padding(
           padding: EdgeInsets.only(left: 20),
           child: Column(
@@ -73,11 +74,10 @@ class CallsWidget extends StatelessWidget {
               color: Color(0xFF075EE55),
             ),
           ),
+          ],
+          ),
+          ),
 
-        ],
-          ),
-          ),
-//--------------------------------------------------
           for(int i=2;i<5;i++)
             Container(
               margin: EdgeInsets.symmetric(vertical: 12),
@@ -92,13 +92,13 @@ class CallsWidget extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
+        
         Padding(
           padding: EdgeInsets.only(left: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                //"Abdulfaz",
                 names[i],
                 style: TextStyle(
                   fontSize: 18,
@@ -136,8 +136,7 @@ class CallsWidget extends StatelessWidget {
               size: 28,
             ),
           ),
-
-        ],
+          ],
           ),
           )
         ],
